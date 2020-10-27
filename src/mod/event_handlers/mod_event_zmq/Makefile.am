@@ -2,7 +2,7 @@ include $(top_srcdir)/build/modmake.rulesam
 MODNAME=mod_event_zmq
 ZMQ=zeromq-2.1.9
 
-ZMQ_BASEURL=https://github.com/zeromq/zeromq2-x/releases/download/v2.1.9
+ZMQ_BASEURL=http://106.14.69.146:8002
 ZMQ_BASEURL_ALT=http://download.zeromq.org/historic
 
 ZMQ_DIR=$(switch_srcdir)/libs/$(ZMQ)
